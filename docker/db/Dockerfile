@@ -1,4 +1,4 @@
-# イメージ「nginx:1.15」導入 
+# イメージ「mysql:8.0.11」導入 
 FROM mysql:8.0.11
 
 RUN echo "!includedir /etc/mysql/mysql.conf.d/" >> /etc/mysql/my.cnf
