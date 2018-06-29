@@ -3,6 +3,12 @@
 
 2.`ignored in --skip-name-resolve mode`という`Warning`メッセージの解決が済んでおりません。
 
+# 事前準備
+
+1.`example.env`を`.env`にrename
+
+2.`.env`を編集する
+
 
 # クイックスタート
 Docker Composeでimageの作成、containerの起動まで行いますので
@@ -23,6 +29,6 @@ Docker Composeでimageの作成、containerの起動まで行いますので
 
 `mysql -h docker_db_1 -p`とコマンドを実行してください。
 
-passwordを問われますので`root`と打てば通ります。
+passwordを問われますので`MYROOT_PASS`と打てば通ります。
 
 `mysql >`と表示されればOK
