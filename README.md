@@ -5,7 +5,7 @@
 
 # 事前準備
 
-1.`example.env`を`.env`にrename
+1.`.env.example`を`.env`にrename
 
 2.`.env`を編集する
 
